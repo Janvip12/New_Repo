@@ -7,5 +7,5 @@ app1.debug = True
 
 @app1.route('/')
 def studentNumber():
-    dictionary =  {"Student Number" : "PUT YOUR STUDENT NUMBER HERE"}
+    dictionary =  {"Student Number" : "12345"}
     return json.dumps(dictionary)
