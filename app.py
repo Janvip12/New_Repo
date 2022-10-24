@@ -7,7 +7,7 @@ app.debug = True
 
 # @app.route('/')
 # def studentNumber():
-#     dictionary =  {"Student Number" : "PUT YOUR STUDENT NUMBER HERE"}
+#     dictionary =  {"Student Number" : "200511517"}
 #     return json.dumps(dictionary)
 
 @app.route('/webhook',methods=['POST'])
